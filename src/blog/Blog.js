@@ -1,8 +1,8 @@
 import React from 'react'
-import Four from './Image/Four.jpg'
-import Five from './Image/Five.jpg'
-import Six from './Image/Six.jpg'
-import './blog.css'
+import Four from '../Image/Four.jpg'
+import Five from '../Image/Five.jpg'
+import Six from '../Image/Six.jpg'
+import '../blog/blog.css'
 function Blog() {
   return (
     <div>

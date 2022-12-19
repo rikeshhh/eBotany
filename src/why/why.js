@@ -1,6 +1,6 @@
 import React from 'react'
-import Three from './Image/Three.jpg'
-import './why.css'
+import Three from '../Image/Three.jpg'
+import '../why/why.css'
 function Why() {
   return (
     <div className='why'>

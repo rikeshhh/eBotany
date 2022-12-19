@@ -1,11 +1,11 @@
 import React from 'react'
-import One from './Image/One.jpg'
-import Two from './Image/Two.jpg'
-import Three from './Image/Three.jpg'
-import Four from './Image/Four.jpg'
-import Five from './Image/Five.jpg'
-import Six from './Image/Six.jpg'
-import './cart.css'
+import One from '../Image/One.jpg'
+import Two from '../Image/Two.jpg'
+import Three from '../Image/Three.jpg'
+import Four from '../Image/Four.jpg'
+import Five from '../Image/Five.jpg'
+import Six from '../Image/Six.jpg'
+import '../cart/cart.css'
 function Cart() {
   return (
 <div>

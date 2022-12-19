@@ -1,10 +1,10 @@
 import './App.css';
-import Navbar from './Navbar';
-import Body from './body';
-import Blog from './Blog';
-import Why from './why';
-import Cart from './Cart';
-import Footer from './footer';
+import Navbar from './nav/Navbar';
+import Body from './body/body';
+import Blog from './blog/Blog';
+import Why from './why/why';
+import Cart from './cart/Cart';
+import Footer from './footer/footer';
 function App() {
   return (
  <div className='App'>

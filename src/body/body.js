@@ -1,9 +1,9 @@
 import React from 'react'
-import Two from './Image/Two.jpg'
-import Three from './Image/Three.jpg'
-import Four from './Image/Four.jpg'
+import Two from '../Image/Two.jpg'
+import Three from '../Image/Three.jpg'
+import Four from '../Image/Four.jpg'
 
-import './body.css'
+import '../body/body.css'
 function Body() {
   return (
     <div className='intro'>
