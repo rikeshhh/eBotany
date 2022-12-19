@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: 400;
+}
+li:hover{
+    color: green;
+}
+.cartContainer{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(4,300px);
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+button{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px 10px;
+    border-bottom-left-radius: 14px;
+}
+h1{
+    font-size: 15px;
+}
