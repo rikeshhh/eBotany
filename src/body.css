@@ -1,0 +1,21 @@
+.intro{
+padding: 200px 250px 100px 250px;
+}
+.introPhase{
+    display: grid;
+    grid-template-columns:475px 300px 169px 90px;
+    grid-template-rows: 425px;
+    gap: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px 10px;
+    border-bottom-left-radius: 14px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

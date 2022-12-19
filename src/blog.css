@@ -1,0 +1,11 @@
+.blog{
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 400px;
+    gap: 20px;
+
+}
+.blogPost{
+    padding: 50px 50px;
+}

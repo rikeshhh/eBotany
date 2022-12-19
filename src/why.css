@@ -1,0 +1,12 @@
+.why{
+    padding: 150px 150px;
+    display: grid;
+    grid-template-rows: 400px;
+    gap: 70px;
+    grid-template-columns: 600px 500px;
+}
+.imge{
+    border: 1px solid black;
+    height: 500px;
+    box-shadow: 10px 10px black;
+}

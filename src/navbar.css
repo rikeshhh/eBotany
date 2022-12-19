@@ -1,0 +1,15 @@
+nav{
+    float: right;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: 400;
+}
+li:hover{
+    color: green;
+}
