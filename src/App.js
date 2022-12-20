@@ -1,17 +1,10 @@
 import './App.css';
-import Body from './body/body';
-import Blog from './blog/Blog';
-import Why from './why/why';
-import Cart from './cart/Cart';
-import Footer from './footer/footer';
+
+import { Router } from './Router/Router';
 function App() {
   return (
  <div className='App'>
-<Body></Body>
-<Why></Why>
-<Cart></Cart>
-<Blog></Blog>
-<Footer></Footer>
+      <Router/>
     </div>
   );
 }

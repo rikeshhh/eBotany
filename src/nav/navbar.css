@@ -1,7 +1,9 @@
-nav{
-    float: right;
-}
-ul{
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+.nav ul{
   display: flex;
 }
 li{
@@ -12,4 +14,8 @@ li{
 }
 li:hover{
     color: green;
+}
+.link{
+  text-decoration: none;
+  padding: 10px;
 }

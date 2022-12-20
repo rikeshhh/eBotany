@@ -4,6 +4,7 @@ import Three from '../Image/Three.jpg'
 import Four from '../Image/Four.jpg'
 
 import '../body/body.css'
+import { Link } from 'react-router-dom'
 function Body() {
   return (
     <div className='intro'>
@@ -11,7 +12,7 @@ function Body() {
         <div className='intrOne'>
             <h1>Botany</h1>
             <p>Customer satisfaction is our primary goal. It’s the foundation of all we do and all we are. We have thrived in business for 4 decades because we put the customer first. </p>
-            <button>Shop Now</button>
+            <Link to={'/AllProducts'} className='button'>Shop Now</Link>
         </div>
         <div className='intrTwo'>
             <img src={Two} alt=''></img>

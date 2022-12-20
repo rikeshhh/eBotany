@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "cactus",
+      "Description": "Tempor esse ut proident ipsum Lorem exercitation aute tempor est velit Lorem pariatur ut. Nisi dolore sit ex labore et et minim. Nulla ea proident id pariatur.",
+      "price":"300",
+      "Category":"OutDoor",
+      "Image":"https://media.istockphoto.com/id/123979928/photo/cactus.jpg?s=612x612&w=0&k=20&c=bEQHhPc-MrYG1MlU-NkUiCLb-6JrvO8f9KUmzd7_r_c="
+    },
+    {
+      "id": 2,
+      "name": "Rexona Palm",
+      "Description": "Tempor esse ut proident ipsum Lorem exercitation aute tempor est velit Lorem pariatur ut. Nisi dolore sit ex labore et et minim. Nulla ea proident id pariatur.",
+      "price":"300",
+      "Category":"OutDoor",
+      "Image":"https://plantanddecor.com/wp-content/uploads/2022/05/Rexona-scaled.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Robusta",
+      "Description": "Tempor esse ut proident ipsum Lorem exercitation aute tempor est velit Lorem pariatur ut. Nisi dolore sit ex labore et et minim. Nulla ea proident id pariatur.",
+      "price":"300",
+      "Category":"OutDoor",
+      "Image":"https://gamalaghar.com/storage/84/4FIRO3T07.png"
+    },
+    {
+      "id": 4,
+      "name": "Money Plant",
+      "Description": "Tempor esse ut proident ipsum Lorem exercitation aute tempor est velit Lorem pariatur ut. Nisi dolore sit ex labore et et minim. Nulla ea proident id pariatur.",
+      "price":"300",
+      "Category":"OutDoor",
+      "Image":"https://gamalaghar.com/storage/60/Money-plant-(1).jpg"
+    },
+    {
+      "id": 5,
+      "name": "Fiddle Leaf Fig",
+      "Description": "Tempor esse ut proident ipsum Lorem exercitation aute tempor est velit Lorem pariatur ut. Nisi dolore sit ex labore et et minim. Nulla ea proident id pariatur.",
+      "price":"300",
+      "Category":"OutDoor",
+      "Image":"https://gamalaghar.com/storage/44/Fiddle-Leaf-Fig.jpg"
+    }
+  ]
+}

@@ -1,54 +1,37 @@
-import React from 'react'
-import Charr from '../Image/4.jpg'
-import './allProduct.css'
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+import Charr from "../Image/4.jpg";
+import { getAllProducts } from "../Redux/Reducer";
+import "./allProduct.css";
+
 function Allproduct() {
-  return (
+
+    const dispatch   = useDispatch()
+    useEffect(()=>{
+        dispatch(getAllProducts())
+    },[dispatch])
+
+    const products = useSelector(state=>state.product.products);
+
+    return (
     <div>
-        <nav>
-    <li>Indoor Plant</li>
-    <li>Outdoor Plant</li>
-</nav>
-<div class="productCarts">
-    <div class="cartContainer">
-        <div class="card">
-        <img src={Charr} alt=''></img>
-            <h1>Indoor Plant</h1>
-            <button>Add to cart</button>
+    
+      <div class="productCarts">
+        <div class="cartContainer">
+            {
+                products?.map((product)=>(
+                    <div  class="card">
+                    <img src={product?.Image} alt=""></img>
+                    <h1>{product?.name}</h1>
+                    <Link to={`/${product.id}`} className="button">Detail</Link>
+                  </div>
+                ))
+            }
         </div>
-        <div class="card">
-        <img src={Charr} alt=''></img>
-            <h1>Indoor Plant</h1>
-
-            <button>Add to cart</button>
-
-        </div>
-        <div class="card">
-        <img src={Charr} alt=''></img>
-            <h1>Indoor Plant</h1>
-
-            <button>Add to cart</button>
-
-        </div>
-        <div class="card">
-        <img src={Charr} alt=''></img>
-            <h1>Indoor Plant</h1>
-
-            <button>Add to cart</button>
-
-        </div>
-        <div class="card">
-        <img src={Charr} alt=''></img>
-            <h1>Indoor Plant</h1>
-
-            <button>Add to cart</button>
-
-        </div>
-     
+      </div>
     </div>
-</div>
-    </div>
-
-  )
+  );
 }
 
-export default Allproduct
+export default Allproduct;

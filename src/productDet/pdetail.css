@@ -18,7 +18,7 @@ body{
   .content{
       display: grid;
       grid-template-columns: repeat(2,1fr);
-      grid-template-rows: 1fr;
+      grid-template-rows: 300px;
       position: absolute;
       gap: 20px;
       padding: 10px 10px;
